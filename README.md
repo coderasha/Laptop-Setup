@@ -1,12 +1,12 @@
-### Laptop-Setup
+# Laptop-Setup
 
-## 1. Github
+### 1. Github
 - sudo apt update
 - sudo apt install git -y
 - sudo dnf install git -y
 - git --version
 
-# 2. install vs code
+### 2. install vs code
 
 - sudo apt update
 - sudo apt install wget gpg -y
