@@ -4,3 +4,4 @@
 -sudo apt update
 -sudo apt install git -y
 -sudo dnf install git -y
+-git --version
