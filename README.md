@@ -5,6 +5,9 @@
 - sudo apt install git -y
 - sudo dnf install git -y
 - git --version
+#### To configure github
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
 
 ### 2. install vs code
 
@@ -15,3 +18,5 @@
 - sudo sh -c 'echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/packages.microsoft.gpg] - -  https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
 - sudo apt update
 - sudo apt install code -y
+
+### 3. Install Golang
