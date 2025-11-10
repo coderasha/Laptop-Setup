@@ -25,4 +25,6 @@ git config --global user.email "your.email@example.com"
 -sudo tar -C /usr/local -xzf $(curl -s https://go.dev/VERSION?m=text).linux-amd64.tar.gz
 -echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc
 source ~/.bashrc
+-go version
+
 
