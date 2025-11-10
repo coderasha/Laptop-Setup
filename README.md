@@ -33,6 +33,8 @@ git config --global user.email "your.email@example.com"
  - sudo apt install wget gpg -y
  - wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
  - sudo install -o root -g root -m 644 packages.microsoft.gpg /usr/share/keyrings/
-- sudo apt update
+ - sudo apt update
+ - sudo apt install code -y
+
 
 
