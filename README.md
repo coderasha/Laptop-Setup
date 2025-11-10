@@ -27,4 +27,8 @@ git config --global user.email "your.email@example.com"
 source ~/.bashrc
 -go version
 
+### 3. Install VS Code
+-sudo apt update
+-sudo apt install wget gpg -y
+
 
