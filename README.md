@@ -22,16 +22,16 @@ git config --global user.email "your.email@example.com"
 ### 3. Install Golang
  - sudo rm -rf /usr/local/go
  - curl -LO https://go.dev/dl/$(curl -s https://go.dev/VERSION?m=text).linux-amd64.tar.gz
--sudo tar -C /usr/local -xzf $(curl -s https://go.dev/VERSION?m=text).linux-amd64.tar.gz
--echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc
-source ~/.bashrc
--go version
+- sudo tar -C /usr/local -xzf $(curl -s https://go.dev/VERSION?m=text).linux-amd64.tar.gz
+- echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc
+- source ~/.bashrc
+- go version
 
 ### 3. Install VS Code
 
- -sudo apt update
- -sudo apt install wget gpg -y
- -wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
- -sudo install -o root -g root -m 644 packages.microsoft.gpg /usr/share/keyrings/
+ - sudo apt update
+ - sudo apt install wget gpg -y
+ - wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+ - sudo install -o root -g root -m 644 packages.microsoft.gpg /usr/share/keyrings/
 
 
