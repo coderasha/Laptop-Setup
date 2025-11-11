@@ -53,6 +53,7 @@ git config --global user.email "your.email@example.com"
  - sudo apt update
  - sudo apt install brave-browser -y
  - brave-browser --version
+ - brave-browser --version
 
 
 
