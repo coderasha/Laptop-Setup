@@ -20,7 +20,7 @@ git config --global user.email "your.email@example.com"
 - sudo apt install code -y
 
 ### 3. Install Golang
- - sudo rm -rf /usr/local/go
+ - sudo rm -rf /usr/local/go 
  - curl -LO https://go.dev/dl/$(curl -s https://go.dev/VERSION?m=text).linux-amd64.tar.gz
 - sudo tar -C /usr/local -xzf $(curl -s https://go.dev/VERSION?m=text).linux-amd64.tar.gz
 - echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc
@@ -37,7 +37,13 @@ git config --global user.email "your.email@example.com"
  - sudo apt install code -y
  - code --version
 
-###
+### 4. Install RUST
+ - sudo apt update
+ - sudo apt install curl build-essential
+ - curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+ - source ~/.cargo/env
+ - rustc --version
+ - cargo --version
 
 
 
