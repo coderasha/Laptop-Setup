@@ -47,7 +47,8 @@ git config --global user.email "your.email@example.com"
 
 
 ### Install Brave Browse
- - 
+ - sudo apt update && sudo apt install curl -y
+
 
 
 
