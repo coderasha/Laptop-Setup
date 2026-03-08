@@ -9,7 +9,7 @@
 git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 
-### 2. install vs code
+### 2. install vs code(from scratch)
 
 - sudo apt update
 - sudo apt install wget gpg -y
